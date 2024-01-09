@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffd699; /* Warmer background color */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffe6cc; /* Soft shadow */
+}
+
+.title {
+  color: #333;
+}
+
+.palindrome-div {
+  margin-top: 20px;
+}
+
+.palindrome-input {
+  padding: 8px;
+}
+
+.palindrome-btn {
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results-div {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
